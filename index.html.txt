@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вейп Шоп</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">VapeShop</div>
+        <nav class="menu">
+            <a href="#">Каталог</a>
+            <a href="#">Акції</a>
+            <a href="#">Про нас</a>
+            <a href="#">Контакти</a>
+        </nav>
+        <div class="actions">
+            <input type="text" placeholder="Пошук">
+            <button class="cart">Кошик</button>
+        </div>
+    </header>
+
+    <!-- Main Banner -->
+    <section class="banner">
+        <h1>Новинки сезону 2024</h1>
+        <p>Рідини преміум-класу та под-системи за знижками</p>
+        <button class="btn">До каталогу</button>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+        <h2>Наші категорії</h2>
+        <div class="category-list">
+            <div class="category">Под-системи</div>
+            <div class="category">Рідини</div>
+            <div class="category">Аксесуари</div>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section class="products">
+        <h2>Популярні товари</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <p>Под-система X</p>
+                <p>Ціна: 999 грн</p>
+                <button class="btn">Додати в кошик</button>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <p>Рідина Y</p>
+                <p>Ціна: 300 грн</p>
+                <button class="btn">Додати в кошик</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 VapeShop | Всі права захищені</p>
+        <p>Контакти: +380 123 456 789</p>
+    </footer>
+</body>
+</html>
